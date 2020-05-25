@@ -16,7 +16,26 @@
     <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">  
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script> 
-    <script type="text/javascript" src="js/validation.js"></script>      
+    <script type="text/javascript" src="js/validation.js"></script>
+    <style>
+        #myparagraph {
+          padding: 60px 0 60px 60px;
+          font-family: Arial;
+        }
+        #mybutton {
+          background-color: #fff;
+          border: none;
+          font-family: Arial;
+          color: black;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 30px;
+        }
+     </style>
   </head>
   
   <body class="size-1280 slide-to-left background-dark">
@@ -24,9 +43,10 @@
     <nav class="slide-nav aside-nav">
       <ul class="chevron">
         <li><a href="index.html">Home</a><li>
-        <li><a href="portfolio-item.html">Portfolio Item</a></li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="process.html">Process</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="our-team.html">Team</a></li>
+        <li><a href="https://github.com/richierip/IUI-Comps-Group">Code</a></li>
       </ul>
     </nav>
     
@@ -49,11 +69,7 @@
             <h1 class="text-size-80 text-xl-size-60 text-l-size-80 text-m-size-60 text-s-size-40 text-line-height-1 margin-bottom-40">
               Why Pacman Goes Right: Explaining Neural Network Decision Making<span class="text-primary">.</span>
             </h1>
-            <p class="margin-top-20"><img src="img/charles-eames.png"></p>
-            <p class="margin-top-40 margin-bottom-20">
-              Summary of our project here.
-            </p>
-            <a href="portfolio-item.html" class="margin-l-bottom-40 background-primary button text-white text-size-16">Our Portfolio <i class="right icon-sli-arrow-right"></i></a>
+            <a id="mybutton" target="_blank" href="https://github.com/richierip/IUI-Comps-Group" class="margin-l-bottom-40 background-primary button text-white text-size-16">Code <i class="right icon-sli-arrow-right"></i></a>
           </article>  
         </div> 
       
@@ -62,7 +78,7 @@
           <div class="background-dark">
             <div class="line">
               <div class="margin"> 
-                <div class="s-12 m-6 xl-4 xxl-3 margin-bottom">
+                <div class="s-12 m-6 xl-4 xxl-3 margin-bottom" style="float:right; width:100%;">
                   <a href="portfolio-item.html">
                     <img class="full-img" src="img/pacmangif.gif" alt=""/>
                   </a>	
@@ -71,14 +87,17 @@
             </div>   
           </div>  
         </div>
+
+      <p id="myparagraph">
+              While there are many programs that can play games as well as humans, there are considerably fewer that can explain their actions. Studies, as well as intuition, suggest that humans are more satisfied with AI decision-making when they understand why the AI made the decisions it did. In our project, we aim to write a program to generate convincing explanations for decisions made by an AI playing Pac-Man.
+            </p>
       </div>
-      
+
       <!-- Footer -->       
       <footer>
         <div class="center margin-left-80  margin-xl-left-60  margin-l-left-40">
           <p class="text-size-12 text-white">Copyright 2019, Vision Design - graphic zoo</p>
           <a class="text-size-12 margin-bottom-20" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding by Responsee Team</a>
-          <p class="text-size-12 margin-bottom-40">All images have been purchased from Bigstock. Do not use the images in your website.</p>          
         </div>      
         <!-- Social icons in Sliding navigation -->
         <div class="footer-social">

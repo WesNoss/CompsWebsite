@@ -1372,7 +1372,7 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
 
 /* Custom Template Styles */
 body {
-  font-family: "Work Sans";
+  font-family: "Arial";
   font-weight: 400;
   background: #f7f7f7;
 }
@@ -1467,7 +1467,7 @@ blockquote {
 }
 blockquote cite {
   margin-top: 10px;
-  font-family: "work sans";
+  font-family: "Arial";
   color: #999;
 }
 hr.break {
