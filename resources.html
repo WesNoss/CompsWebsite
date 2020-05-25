@@ -16,7 +16,17 @@
     <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">  
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script> 
-    <script type="text/javascript" src="js/validation.js"></script>      
+    <script type="text/javascript" src="js/validation.js"></script>
+
+    <style>
+      .links {
+        font-size: 10pt
+        }
+
+       .links:hover {
+         color:#F6FB00;
+       }
+    </style>
   </head>
   
   <body class="size-1280 slide-to-left">
@@ -29,6 +39,7 @@
         <li><a href="our-team.html">Team</a></li>
         <li><a href="https://github.com/richierip/IUI-Comps-Group">Code</a></li>
       </ul>
+      <img src="img/pacmanbar.png" style="transform:rotate(270deg); margin-top:65px;">
     </nav>
 
     <section class="slide-content">
@@ -47,17 +58,14 @@
               <p class="margin-top-40 margin-bottom-20">
                  The inspiration for our project is a paper presented at the 2019 Intelligent User Interfaces conference (see link below). In this paper, the authors attempt to create an AI that can autonomously provide human-readable explanations to complement decisions made by another AI playing the game of the frogger. We implemented our own decision generator for Pac-Man from a combination of ideas we read about in this paper and our own original strategies.
               </p>
-              <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3301275.3302316?download=true">
-                Automated Rationale Generation: A Technique for Explainable AI and its Effects on Human Perceptions
+              <a class="links" target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3301275.3302316?download=true">
+                <u>Automated Rationale Generation: A Technique for Explainable AI and its Effects on Human Perceptions</u>
               </a>
+              <hr>
+              <p>We adapted a pre-built Pac-Man game written in Python 2.7, provided by the Berkeley CS Department. </p>
+              <a class="links" target="_blank" href="http://ai.berkeley.edu/project_overview.html"><u>Berkeley Pac-Man Codebase</u></a>
             </section>
 
-            <!-- Sections -->
-            <!-- Section 1 -->
-            <!-- Section 2 -->
-<!--            <div class="full-width">-->
-<!--              <hr class="break margin-top-0">-->
-<!--            </div>-->
           </article>
         </div>
 

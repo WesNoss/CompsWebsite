@@ -1602,6 +1602,8 @@ nav {
 }
 .aside-nav > ul > li > a {
   padding-left: 20px!important;
+  text-align: center;
+  font-family: "Arial";
 }
 .aside-nav li li a:hover::before, .aside-nav li li.active-item a::before {
   display: none;
@@ -2040,4 +2042,4 @@ aside {
   .background-image {
     background-position: center;
   }
-}    
+}
